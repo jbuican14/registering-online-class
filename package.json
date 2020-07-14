@@ -1,0 +1,25 @@
+{
+  "name": "onlineclass2020",
+  "version": "1.0.0",
+  "description": "Application for registering for classes and admin to add classes ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbuican14/online-class-2020.git"
+  },
+  "author": "Juti Buican",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbuican14/online-class-2020/issues"
+  },
+  "homepage": "https://github.com/jbuican14/online-class-2020#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "nodemailer": "^6.4.10"
+  }
+}
