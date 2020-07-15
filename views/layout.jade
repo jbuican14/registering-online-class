@@ -1,0 +1,37 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='https://lv.thehackneywick.co.uk/wp-content/uploads/2020/07/favicon.ico')
+    title Online classes for everyone! 
+    // Bootstrap core CSS
+    link(href='css/bootstrap.min.css', rel='stylesheet')
+    link(href='css/main.css', rel='stylesheet')
+  body
+    header
+      nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark
+        a.navbar-brand(href='/') ONLINE CLASSES
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarCollapse', aria-controls='navbarCollapse', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarCollapse.collapse.navbar-collapse
+          ul.navbar-nav.mr-auto
+            li.nav-item
+              a.nav-link(href='about')
+                | Home 
+            li.nav-item
+              a.nav-link(href='classes') Classes 
+            li.nav-item
+              a.nav-link(href='contact') Contact Us
+  .container
+    block content
+  footer.container
+      p.float-right
+        a(href='#') Back to top
+      p
+        | © 2020 Company, Inc. · 
+        a(href='#') Privacy
+        |  · 
+        a(href='#') Terms

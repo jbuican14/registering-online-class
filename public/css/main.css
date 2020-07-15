@@ -1,0 +1,14 @@
+.container.highlight, .container {
+    margin-top: 3rem;
+    display: inline-block;
+}
+
+.container.news {
+    width: 100vw;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 1rem;
+    background: url(https://thehackneywick.co.uk/wp-content/uploads/2020/06/thehacneywick-sign-june2020_-scaled.jpg) no-repeat;
+    background-size: contain;
+    margin-top: 5rem;
+}
